@@ -16,7 +16,8 @@
 }
 
 p.textCompleted{
-  color: var(--gray)
+  color: var(--gray-300);
+  text-decoration: line-through;
 }
 
 
@@ -53,4 +54,22 @@ p.textCompleted{
   width: 100%;
   height: 100%;
   color: var(--purple)
+}
+
+@media (max-width: 768px){
+
+  .labelContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .labelContainer p{
+    margin-right: 0;
+  }
+
+  .checkContainer{
+    margin-top: 0.5rem;
+  }
+  
 }

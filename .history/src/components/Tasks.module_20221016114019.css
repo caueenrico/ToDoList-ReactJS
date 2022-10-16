@@ -15,7 +15,10 @@
   margin-right: auto;
 }
 
-p.
+p.textCompleted{
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
 
 
 .trash {
@@ -52,3 +55,5 @@ p.
   height: 100%;
   color: var(--purple)
 }
+
+@media (max-width: 768px){}

@@ -55,3 +55,23 @@ p.textCompleted{
   height: 100%;
   color: var(--purple)
 }
+
+@media (max-width: 768px){
+ 
+
+  .labelContainer p{
+    font-size: 0.875rem;
+    line-height: 1.18rem;
+    color: var(--gray-100);
+    margin-right: auto;
+  }
+  
+  p.textCompleted{
+    color: var(--gray-300);
+    text-decoration: line-through;
+  }
+
+  
+  
+
+}
