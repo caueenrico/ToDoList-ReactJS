@@ -52,19 +52,12 @@ button img{
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-    }
-
-    .inputPosition div{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        
+        di
     }
 
     .inputDecor{
-        width: 90%;
-        padding-left: 22%;
+        width: 100%;
     }
 
     .inputPosition button{

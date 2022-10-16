@@ -8,7 +8,7 @@
 
 
 .inputDecor{ 
-    width: max(38.875rem);
+    /* width: max(38.875rem); */
     height: 3.375rem;
     
     background: var(--gray-500);
@@ -50,21 +50,16 @@ button img{
 @media (max-width: 768px){
     .inputPosition{
         flex-direction: column;
-        align-items: center;
+        
         gap: 1rem;
     }
 
-    .inputPosition div{
+    .inputPosition form{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
     }
 
     .inputDecor{
-        width: 90%;
-        padding-left: 22%;
+        width: 200%;
     }
 
     .inputPosition button{

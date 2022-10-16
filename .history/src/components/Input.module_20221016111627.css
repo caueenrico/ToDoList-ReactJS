@@ -54,17 +54,8 @@ button img{
         gap: 1rem;
     }
 
-    .inputPosition div{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
     .inputDecor{
-        width: 90%;
-        padding-left: 22%;
+        width: 1%;
     }
 
     .inputPosition button{
