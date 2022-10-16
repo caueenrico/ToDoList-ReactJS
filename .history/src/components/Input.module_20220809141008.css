@@ -1,0 +1,41 @@
+.inputPosition{
+    display:flex;
+    justify-content: center;
+    margin-top: -1.8rem;
+    gap: 8px;
+
+}
+
+
+.inputDecor{ 
+    width: max(38.875rem);
+    height: 3.375rem;
+    
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    color: var(--gray-100);
+
+    padding: 15px
+}
+
+button{
+    font-family: 0.875rem;
+    width: 90px;
+    height: 52px; 
+    background: #1E6F9F;
+    border-radius: 8px;
+    border: none;
+    line-height: 140%;
+    color: var(--gray-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img{
+    padding-left: 4px;
+}
+
+button:hover
+

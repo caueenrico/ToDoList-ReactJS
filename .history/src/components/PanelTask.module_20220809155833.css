@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+  
+}
+
+.container > div{
+  display: flex;
+}
+
+.panelEmpty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid black;
+  border-radius: 1px;
+  margin-top: 24px;
+  max-width: ;
+}
+.panelEmpty img{
+  height: 100px;
+}

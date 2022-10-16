@@ -1,0 +1,7 @@
+.inputDecor{
+    width: 39.87rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
+

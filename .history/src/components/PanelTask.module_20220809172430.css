@@ -1,0 +1,75 @@
+.containerPai {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  
+}
+
+.container > div {
+  display: flex;
+}
+
+.panelEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-top: 2px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 24px;
+  max-width: 736px;
+}
+.panelEmpty img {
+  height: 56px;
+  margin-top: 64px;
+}
+.createTask {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.createConclud{
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--purple);
+  font-weight: bold;
+}
+.numberTask {
+  background: var(--gray-400);
+  border-radius: 26px;
+  width: 30px;
+  color: var(--gray-100);
+  padding-left:10px;
+}
+.position{
+  gap: 8px;
+}
+
+.panelEmpty > span{
+  color: var(--gray-300);
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelContainer{
+  background-color: var(--gray-300);
+  display: flex;
+}
+label{
+  display: flex;
+  align-items: flex-start;
+  
+}
+.trash{
+  background: none;
+  height: 25px;
+}

@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.container > div{
+  display: flex;
+}
+
+.panelEmp

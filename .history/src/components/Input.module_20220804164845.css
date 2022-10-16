@@ -1,0 +1,15 @@
+.inputDecor{
+    width: 39.87rem;
+    height: 3.375rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
+
+button{
+    
+    height: 54px;
+    left: calc(50% - 736px/2);
+    top: 173px;
+}
+

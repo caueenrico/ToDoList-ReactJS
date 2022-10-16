@@ -1,0 +1,9 @@
+body{
+    background: black;
+    color: white;
+}
+
+.inputList{
+    display: flex;
+    justify-content: center;
+}

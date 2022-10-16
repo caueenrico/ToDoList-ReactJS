@@ -1,0 +1,102 @@
+.containerPai {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.container > div {
+  display: flex;
+}
+
+.panelEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-top: 2px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 24px;
+  max-width: 736px;
+}
+.panelEmpty img {
+  height: 56px;
+  margin-top: 64px;
+}
+.createTask {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.createConclud {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--purple);
+  font-weight: bold;
+}
+.numberTask {
+  background: var(--gray-400);
+  border-radius: 26px;
+  width: 30px;
+  color: var(--gray-100);
+  padding-left: 10px;
+}
+.position {
+  gap: 8px;
+}
+
+.panelEmpty > span {
+  color: var(--gray-300);
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelContainer {
+  background: var(--gray-400);
+  margin-top: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  justify-content: center;
+}
+label {
+  padding: 16px;
+  padding: 16px;
+  gap: 12px;
+}
+
+label{
+  color: #f2f2f2;
+}
+.trash {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  transition: 0.5s;
+  border: none;
+}
+
+.trash:hover {
+  color: var(--Danger);
+}
+.trash:focus {
+  outline: transparent;
+  box-shadow: none;
+}
+.checkboxRound{
+  appearance: none; 
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: solid var(--blue);
+}
